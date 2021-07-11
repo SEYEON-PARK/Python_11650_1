@@ -15,7 +15,7 @@ for i in range(N): # i에 0부터 N-1까지 대입하며 반복
     a, b=map(int, input().split()) # 사용자로부터 정수 두 개 입력받기
     xy.append([a, b]) # 입력받은 정수 두 개를 하나의 리스트로 묶은 후, 리스트 xy에 추가하기
 
-xy.sort()
+xy.sort() # 리스트 xy 정렬하기
 
-for i in range(N):
+for i in range(N): 
     print(xy[i][0], xy[i][1]);
