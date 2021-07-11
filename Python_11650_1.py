@@ -17,5 +17,5 @@ for i in range(N): # i에 0부터 N-1까지 대입하며 반복
 
 xy.sort() # 리스트 xy 정렬하기
 
-for i in range(N): 
-    print(xy[i][0], xy[i][1]);
+for i in range(N): # i에 0부터 N-1까지 대입하며 반복
+    print(xy[i][0], xy[i][1]); # 결과 출력하기
